@@ -1,5 +1,5 @@
 /* General Blueprint Style */
-@import url('https://fonts.googleapis.com/css?family=Lora|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Dancing+Script');
 @font-face {
 	font-family: 'bpicons';
 	src:url('../fonts/bpicons/bpicons.eot');
@@ -19,9 +19,13 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 .clearfix:after { clear: both; }
 
 body {
-    font-family: 'Lora', serif;
+    font-family: 'Cormorant Garamond', serif;
     color: #fff;
     background: #47a3da;
+}
+
+h2 {
+	font-family: 'Dancing Script', cursive;
 }
 
 a {
